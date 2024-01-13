@@ -50,21 +50,14 @@ export const Input = styled.input`
   }
 `;
 
-export const Button = styled.button`
-  display: inline-block;
-  padding: 8px 30px;
-  background-color: #125bda;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-
-  &:hover {
-    background-color: #0f4094;
-  }
-
-`;
+export const VisuallyHiddenInput = styled('input')({
+  clip: 'rect(0 0 0 0)',
+  clipPath: 'inset(50%)',
+  height: 1,
+  overflow: 'hidden',
+  position: 'absolute',
+  bottom: 0,
+  left: 0,
+  whiteSpace: 'nowrap',
+  width: 1,
+});

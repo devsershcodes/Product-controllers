@@ -16,18 +16,7 @@ export const Header = styled.div`
   justify-content: space-evenly;
   align-items: center;
 `
-export const Button  = styled.button`
-  width: 130px;
-  height: 40px;
-  background-color: transparent;
-  border: 1px solid black;
-  border-radius: 10px;
-  cursor: pointer;
-  &:hover{
-    border: 1px solid #0051ff;
-    color:#0051ff ;
-  }
-`
+
 export const Nav = styled(Link)`
 /* background-color: red; */
   width: auto;

@@ -1,4 +1,5 @@
-import { Button, Header, Nav } from "./styled.navigation";
+import { Header, Nav } from "./styled.navigation";
+import Button from '@mui/material/Button';
 
 const Navigation = () => {
   return (
@@ -6,11 +7,11 @@ const Navigation = () => {
       
         <Header>
           <Nav to="/">
-            <Button>Ver produtos</Button>
+            <Button variant="outlined">Ver produtos</Button>
           </Nav>
 
           <Nav to="/add">
-            <Button>Agregar productos</Button>
+            <Button variant="outlined">Agregar productos</Button>
           </Nav>
         </Header>
 

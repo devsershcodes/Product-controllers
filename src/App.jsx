@@ -4,7 +4,8 @@ import Navigation from "./components/navigation";
 import NavRoutes from "./components/layout";
 import ViewProducts from "./page/view-products/viewproducts";
 import { ContainerMain } from "./components/styled.navigation";
-import AddProducts from "./page/add-products/addproducts";
+/* import AddProducts from "./page/add-products/addproducts"; */
+import Example from "./components/table.addproduct";
 function App() {
   return (
     <>
@@ -21,7 +22,7 @@ function App() {
           />
           <Route path="/add" element={
             <NavRoutes>
-              <AddProducts/>
+              <Example/>
             </NavRoutes>
           } />
         </Routes>
